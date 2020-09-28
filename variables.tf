@@ -1,3 +1,3 @@
-variable "name" {}
-variable "region" {}
-variable "prefix" {}
+variable "name" { type=string }
+variable "region" { type=string }
+variable "prefix" { type=string }
